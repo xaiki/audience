@@ -50,7 +50,7 @@ namespace Audience.Widgets
             taggrid = new Gtk.Grid ();
             taggrid.column_spacing = 10;
             taggrid.margin = 12;
-            tagview.add_with_viewport (taggrid);
+            tagview.add (taggrid);
             
             /*setup*/
             var setupgrid  = new Gtk.Grid ();
