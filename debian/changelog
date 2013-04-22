@@ -1,3 +1,9 @@
+audience (0.1+r267-0+pkg10~debian0) unstable; urgency=low
+
+  * Rebuild for debian with vala 0.18 and gst 1.0
+
+ -- Niv Sardi <xaiki@debian.org>  Mon, 22 Apr 2013 17:56:03 -0300
+
 audience (0.1+r267-0+pkg10~raring1) raring; urgency=low
 
   * Auto build.
