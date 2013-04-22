@@ -92,6 +92,9 @@ namespace Audience {
 		var sink = Gst.ElementFactory.make ("cluttersink", "videosink");
 #endif
 
+	    if (sink == null)
+			warning ("no sink was created !");
+
 		return sink;
 	}
 
